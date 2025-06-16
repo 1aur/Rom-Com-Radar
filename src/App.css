@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw; 
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #FFD1DC, #FFC0CB);
+  padding: 20px;
+}
+
+
+.card-set-info {
+  margin-bottom: 30px;
+  text-align: center;
+  color: hsl(15, 35%, 32%);
+}
+
+.card-set-info h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.card-set-info p {
+  font-size: 1.1em;
+  color: hsl(15, 35%, 32%);
+}
+
+.navigation-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px; 
+}
+
+.nav-button {
+  background-color: hsl(15, 35%, 32%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #ffcece;
+}
+
+.progress-indicator {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+} 
