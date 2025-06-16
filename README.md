@@ -2,7 +2,7 @@
 
 Submitted by: **Lauren Rodriguez**
 
-This web app: **insert description**
+This web app: **Tests your rom-com knowledge!**
 
 Time spent: **5** hours spent in total
 
