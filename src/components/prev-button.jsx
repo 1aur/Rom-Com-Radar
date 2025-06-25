@@ -1,8 +1,8 @@
 import React from 'react';
 
-const PreviousButton = ({ onClick }) => {
+const PreviousButton = ({ onClick, disabled}) => {
   return (
-    <button onClick={onClick} className="nav-button">
+    <button onClick={onClick} className="nav-button" disabled={disabled}>
       Previous
     </button>
   );

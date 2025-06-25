@@ -7,8 +7,8 @@
   }
   
   .flashcard:hover .flashcard-inner {
-    transform: rotateY(10deg); 
-  }
+  transform: rotateY(10deg); 
+  } 
   
   .flashcard-inner {
     width: 100%;
